@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Archivo+Black&family=Arvo&family=Bree+Serif&family=Crete+Round&family=Inclusive+Sans&family=Josefin+Sans:wght@100&family=Manrope&family=Montserrat&family=Nunito:wght@200&family=Open+Sans:wght@300;400&family=Poppins:wght@300;400&family=Roboto:wght@300&family=Rubik&family=Syne&family=Volkhov&family=Yesteryear&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 40px;
+}
+.header-container h1 {
+  color: #377dff;
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 30px;
+}
+.menu a {
+  text-decoration: none;
+  margin-left: 50px;
+  color: black;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.menu a:hover {
+  color: #377dff;
+  font-weight: 600;
+}
+.icon {
+  width: 30px;
+  height: 30px;
+}
+.container {
+  padding: 250px 200px;
+  display: flex;
+  align-items: center;
+  gap: 230px;
+}
+.box {
+  width: 420px;
+}
+.box h2 {
+  font-size: 45px;
+  font-family: Poppins;
+}
+.box h3 {
+  margin-top: 10px;
+  font-family: Poppins;
+  letter-spacing: 1px;
+  color: #377dff;
+}
+.box p {
+  margin-top: 10px;
+  font-size: 20px;
+  color: gray;
+  font-family: Poppins;
+  font-weight: 550;
+}
+.images {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+}
+.btnContainer {
+  margin-top: 50px;
+}
+.btnContainer button {
+  width: 130px;
+  height: 30px;
+  background-color: #377dff;
+  color: white;
+  font-family: Poppins;
+  font-weight: 600;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
